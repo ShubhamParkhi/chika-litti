@@ -138,8 +138,8 @@ a:focus {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: right top;
-  object-position: right top;
+  -o-object-position: top;
+  object-position: top;
 }
 
 .header_section {
