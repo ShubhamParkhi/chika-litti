@@ -1,7 +1,6 @@
 import React from "react";
 
 function Home() {
-  document.getElementById("home").classList.add("active");
   return (
     <div>
       {/* slider section */}
