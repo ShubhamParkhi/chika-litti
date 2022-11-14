@@ -25,7 +25,7 @@ function About() {
                           <div className="row">
                             <div>
                               <div className="detail-box">
-                                <h1>Fast Food Restaurant</h1>
+                                <h1>Taste Mein Baap!</h1>
                                 <p>
                                   Chicka Litti brings you the authentic desi
                                   taste which we use to get earlier at our
@@ -53,7 +53,7 @@ function About() {
                           <div className="row">
                             <div>
                               <div className="detail-box">
-                                <h1>Fast Food Restaurant</h1>
+                                <h1>Taste Mein Baap!</h1>
                                 <p>
                                   We have always found Mumbai's street food to
                                   be bragged in Bollywood Movies, challenging to
@@ -81,7 +81,7 @@ function About() {
                           <div className="row">
                             <div>
                               <div className="detail-box">
-                                <h1>Fast Food Restaurant</h1>
+                                <h1>Taste Mein Baap!</h1>
                                 <p>
                                   Bihar Me Ka Ba, a satirical song released few
                                   times back created lots of buzz questioning

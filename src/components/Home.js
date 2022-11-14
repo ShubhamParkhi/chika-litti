@@ -1,6 +1,7 @@
 import React from "react";
 
 function Home() {
+  document.getElementById("home").classList.add("active");
   return (
     <div>
       {/* slider section */}
@@ -16,7 +17,7 @@ function Home() {
                 <div className="row">
                   <div className="col-md-7 col-lg-6">
                     <div className="detail-box">
-                      <h1>Fast Food Restaurant</h1>
+                      <h1>Taste Mein Baap!</h1>
                       <p>
                         Chicka Litti brings you the authentic desi taste which
                         we use to get earlier at our villages from our grand
