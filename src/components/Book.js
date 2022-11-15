@@ -1,7 +1,4 @@
-import React from "react";
-// import "./styles.css";
-// import "jquery-nice-select/css/style.css";
-import { useEffect, useRef } from "react";
+import { React, useEffect, useRef } from "react";
 import $ from "jquery";
 window.jQuery = window.$ = $;
 require("jquery-nice-select");
@@ -28,12 +25,12 @@ function Book() {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Your Name"
+                      placeholder="Full Name"
                     />
                   </div>
                   <div>
                     <input
-                      type="text"
+                      type="number"
                       className="form-control"
                       placeholder="Phone Number"
                     />
@@ -42,7 +39,7 @@ function Book() {
                     <input
                       type="email"
                       className="form-control"
-                      placeholder="Your Email"
+                      placeholder="Email ID"
                     />
                   </div>
                   <div>
@@ -51,7 +48,7 @@ function Book() {
                       className="form-control nice-select wide"
                     >
                       <option value selected disabled>
-                        How many persons?
+                        How many Guests?
                       </option>
                       <option value>2</option>
                       <option value>3</option>
@@ -70,7 +67,14 @@ function Book() {
             </div>
             <div className="col-md-6">
               <div className="map_container ">
-                <div id="googleMap" />
+                <iframe
+                  id="googleMap"
+                  title="chika Litti"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14386.554108135542!2d85.0987259!3d25.6501199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f610201b94af497!2sChicka%20Litti!5e0!3m2!1sen!2sin!4v1668529254973!5m2!1sen!2sin"
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>

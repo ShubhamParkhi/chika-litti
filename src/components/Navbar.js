@@ -28,22 +28,54 @@ const Navbar = () => {
             >
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item" id="home">
-                  <Link className="nav-link" to="/">
+                  <Link
+                    className="nav-link"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    to="/"
+                  >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item" id="menu">
-                  <Link className="nav-link" to="/menu">
+                  <Link
+                    className="nav-link"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    to="/menu"
+                  >
                     Menu
                   </Link>
                 </li>
                 <li className="nav-item" id="about">
-                  <Link className="nav-link" to="/about">
+                  <Link
+                    className="nav-link"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    to="/about"
+                  >
                     About
                   </Link>
                 </li>
                 <li className="nav-item" id="book">
-                  <Link className="nav-link" to="/book">
+                  <Link
+                    className="nav-link"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    to="/book"
+                  >
                     Book Table
                   </Link>
                 </li>
